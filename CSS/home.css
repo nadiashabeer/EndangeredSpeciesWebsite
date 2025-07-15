@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+main{
+  background-color:black;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  color: #bad646;
+  height: 100%;
+  width: 100%;
+}
+
+body{  background-color:black;}
+
+main hr{
+  width: 10%;
+}
+
+main h3,p{
+  color: white;
+}
+
+main .donate{
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+main .donateHeading{
+  text-decoration: underline;
+  color: #bad646;
+}
+
+main input{
+  font-size: larger;
+  border: #bad646 solid 5px;
+  background-color: white;
+  font-weight: bold;
+}
+
+p input {
+  font-size: larger;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+main .donateBtn:hover{
+  background-color: lightgrey;
+}
+
+
+
+main form{
+  word-spacing: 30px;
+}
+
+main p{
+  color: white;
+  word-spacing: 5px;
+}

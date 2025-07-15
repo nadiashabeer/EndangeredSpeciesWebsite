@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fauna Aid Merchandise</title>
+    <link rel="stylesheet" href="../CSS/header_footer.css">
+    <link rel="stylesheet" href="../CSS/shop.css">
+  </head>
+
+  <body>
+    <header>
+      <table>
+        <tr class="tr1">
+          <td class="logo">
+            <a href="HomePage.html"><img class="img" src="../Images/logo.png" alt="FaunAid Logo" width="150"/></a>
+          </td>
+          <td class="td1">
+            <input type="search" placeholder="Search">
+            <img class="search" src="../Images/icons/search.png"></img>
+            <a style="color:white" href="#contactUs">Contact Us</a>
+          </td>
+        </tr>
+        <tr class="tr2">
+          <td colspan="2" class="td2">
+            <a href="HomePage.html">Home</a> <span>|</span>
+            <a href="ListPage.html">Endangered Animals</a> <span>|</span>
+            <a href="AdoptPage.html">Adopt</a> <span>|</span>
+            <a href="ShopPage.html">Merchandise</a> <span>|</span>
+            <a href="MoreInfoPage.html">Know More</a> <span>|</span>
+            <a href="AboutUsPage.html">About Us</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+
+
+    <main>
+        <h1 class="h1P">PICK A MERCHANDISE</h1>
+        <script src="../JavaScript/shop.js"></script>
+        <h1>TEST YOUR KNOWLEDGE</h1>
+        <table>
+          <tr>
+            <td><img src="../Images/List/blank.png" id="img1" height="150"></td>
+            <td><img src="../Images/List/blank.png" id="img2" height="150"></td>
+            <td><img src="../Images/List/blank.png" id="img3" height="150"></td>
+          </tr>
+          <tr class="gameTable">
+            <td>
+              <select id="txt1">
+                <option>Socotra Cormorant</option>
+                <option>Dugong</option>
+                <option>Houbara Bustard</option>
+                <option>Hawksbill Turtle</option>
+                <option>Sand Cat</option>
+                <option>Arabian Leopard</option>
+            </td>
+            <td>
+              <select id="txt2">
+                <option>Socotra Cormorant</option>
+                <option>Dugong</option>
+                <option>Houbara Bustard</option>
+                <option>Hawksbill Turtle</option>
+                <option>Sand Cat</option>
+                <option>Arabian Leopard</option>
+            </td>
+            <td>
+              <select id="txt3">
+                <option>Socotra Cormorant</option>
+                <option>Dugong</option>
+                <option>Houbara Bustard</option>
+                <option>Hawksbill Turtle</option>
+                <option>Sand Cat</option>
+                <option>Arabian Leopard</option>
+            </td>
+          </tr>
+          <tr class="gameTable">
+            <td colspan="3" id="info" style="font-size:x-large">HINT: Match the names to the animal pictures.</td>
+          </tr>
+        </table>
+
+        <input id="playbtn" type="button" value="PLAY" onclick="playGame()">
+    </main>
+
+
+
+    <footer id="contactUs">
+      <table align="center">
+        <tr>
+          <td><h2>Contact Us</h2></td>
+          <td><h2>Location</h2></td>
+          <td><h2>Work Hours</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.facebook.com/"> <img src="../Images/icons/facebook.png"></img></a>
+            <a href="https://www.instagram.com/?hl=en"> <img src="../Images/icons/instagram.png"></img></a>
+            <a href="https://twitter.com/?lang=en"> <img src="../Images/icons/twitter.png"></img></a>
+          </td>
+          <td rowspan="2">
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931153.6436380817!2d53.972655327991816!3d24.26558883996743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e3a1b94df8b93%3A0x19831d77d9e2ec43!2sAbu%20Dhabi%20Wildlife%20Centre!5e0!3m2!1sen!2sae!4v1653826638774!5m2!1sen!2sae"
+                      width="300" height="150" style="border:0;" allowfullscreen="" ></iframe>
+            </div>
+          </td>
+          <td rowspan="2">
+            <h3>Monday-Friday: 9am - 6pm</h3>
+            <h3>Saturday: 10am-5pm</h3>
+            <h3>Sunday: Closed</h3>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <a href="https://www.snapchat.com/"> <img src="../Images/icons/snap.png"></img></a>
+            <a href="mailto:faunaid_support@gmail.com"><img src="../Images/icons/mail.png"></img></a>
+            <button type="button" onclick="alert('Office: 02-756-3214 \nToll Free: 800-5666-233');">
+              <img src="../Images/icons/phone.png"></img>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <br>
+            <small>
+              FaunAid Inc. is a nonprofit, tax-exempt charitable organization under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.
+              <br> &copy; 2022 FaunAid 
+              &nbsp; &nbsp; <a href="../Documents/Privacy.pdf">Privacy Policy\Your Privacy Rights</a>
+              &nbsp; &nbsp; &nbsp; <a href="../Documents/Terms.docx">Terms &amp; Conditions</a>
+            </small>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

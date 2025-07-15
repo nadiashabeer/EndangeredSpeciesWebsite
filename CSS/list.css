@@ -1,0 +1,96 @@
+main{
+  background-color: black;
+  color: white;
+}
+
+main table{
+  width: 100%;
+  text-align: center;
+
+}
+main hr{
+  width: 50%;
+}
+main .img{
+  border-radius: 50%;
+}
+main h2{
+  color: #bad646;
+  font-family: Copperplate,fantasy;
+  font-size: xxx-large;
+  text-align: center;
+}
+
+main .content{
+  text-align: justify;
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+
+main .padding{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: justify;
+}
+
+main .box{
+  background-color: black;
+  padding-top: 2%;
+  text-align: center;
+}
+
+
+main button{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  background-color: black;
+}
+
+main button:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+main .dot{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 2px;
+  margin-left: 2px;
+  background-color: white;
+  border-radius: 50%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+main .dot:hover{
+  background-color: lightgrey;
+}
+
+main h1{
+    text-align: center;
+}
+
+
+#imgTitle{
+  cursor: pointer;
+}
+
+main p a{
+    color: #bad646;
+}
+
+main p {
+  padding: 20px;
+}
+
+main .infoTable{
+  align: center;
+  width: 90%
+}

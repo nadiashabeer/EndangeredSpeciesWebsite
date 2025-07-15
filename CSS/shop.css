@@ -1,0 +1,60 @@
+body{
+  background-color: black;
+}
+main{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+main .h1P{
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+main td{
+  padding: 40px;
+  border: 50px lightgrey solid;
+  background-color: white;
+  color:black;
+}
+
+main p{
+  margin-top: 5%;
+}
+
+main input{
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  color:white;
+  border-radius: 20%;
+  text-align: center;
+}
+
+main .greybg{
+  background-color: lightgrey;
+}
+
+#playbtn{
+  margin-top:3%;
+  background-color: #bad646;
+  color: black;
+  border-radius: 5px;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+main #playbtn:hover{
+  background-color: lightgrey;
+}
+
+main .gameTable td{
+  padding: 5px;
+  border: 50px lightgrey solid;
+  background-color: white;
+  color:black;
+}

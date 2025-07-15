@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Adoption Page</title>
+    <link rel="stylesheet" href="../CSS/header_footer.css">
+    <link rel="stylesheet" href="../CSS/adopt.css">
+  </head>
+
+  <body>
+    <header>
+      <table>
+        <tr class="tr1">
+          <td class="logo">
+            <a href="HomePage.html"><img class="img" src="../Images/logo.png" alt="FaunAid Logo" width="150"/></a>
+          </td>
+          <td class="td1">
+            <input type="search" placeholder="Search">
+            <img class="search" src="../Images/icons/search.png"></img>
+            <a style="color:white" href="#contactUs">Contact Us</a>
+          </td>
+        </tr>
+        <tr class="tr2">
+          <td colspan="2" class="td2">
+            <a href="HomePage.html">Home</a> <span>|</span>
+            <a href="ListPage.html">Endangered Animals</a> <span>|</span>
+            <a href="AdoptPage.html">Adopt</a> <span>|</span>
+            <a href="ShopPage.html">Merchandise</a> <span>|</span>
+            <a href="MoreInfoPage.html">Know More</a> <span>|</span>
+            <a href="AboutUsPage.html">About Us</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+
+
+    <main>
+      <h1>ADOPT</h1>
+      <p>Our adoption center is a fundraising effort to preserve species and their habitats.
+        Your symbolic adoption of these animals helps fight the many threats to their natural
+        environment. The funds raised through these symbolic adoptions are used to help save
+        animals in the wild. Contributors may symbolically adopt an animal from a habitat that
+        World Wildlife Fund is working to protect and conserve. Your symbolic adoption does not
+        support a particular animal, but instead helps fight threats faced by critically endangered
+        species, like global warming and habitat loss.</p>
+      <script src="../JavaScript/adopt.js"></script>
+      <form>
+        <h2>Adoption Form</h2>
+        <h3>User Information</h3>
+          <table>
+            <tr>
+              <td><label>Full Name: </label></td>
+              <td><input type="text" size="30" required></td>
+              <td rowspan="5">
+                <img id="gender" src="../Images/Other/male.jpg" alt="Image of Male avatar" height="200">
+              </td>
+            </tr>
+            <tr>
+              <td><label>Mobile Number: </label></td>
+              <td><input type="text" placeholder="+971xxxxxxxxx" required></td>
+            </tr>
+            <tr>
+              <td><label>Email Address: </label></td>
+              <td><input type="text" placeholder="johndoe@gmail.com" size="30" required></td>
+            </tr>
+            <tr>
+              <td><label>Date OF Birth: </label></td>
+              <td><input type="date" required></td>
+            </tr>
+            <tr>
+              <td><label>Gender: </label></td>
+              <td>
+                <input id="male"   onclick = "avatarSelect()" type="radio" name="gender" checked>Male &nbsp; &nbsp; &nbsp;
+                <input id="female" onclick = "avatarSelect()" type="radio" name="gender">Female
+              </td>
+            </tr>
+          </table>
+
+        <h3>Animal Information</h3>
+        <table>
+          <tr>
+            <td><label>Animal: </label></td>
+            <td>
+              <select id="Animals" onclick="animalChange()">
+                <option>Socotra Cormorant</option>
+                <option>Dugong</option>
+                <option>Houvara Bustard</option>
+                <option>Hawksbil Turtle</option>
+                <option>Sand Cat</option>
+                <option>Arabian Leopard</option>
+              </select>
+            </td>
+            <td rowspan="4">
+              <img id="animalImg" src="../Images/List/img1.jpg" alt="Image of animal" width="200" height="200">
+            </td>
+          </tr>
+          <tr>
+            <td><label>Adoption Name: </label></td>
+            <td><input type="text" placeholder="Ex: Buddy,Rex" size="20" required></td>
+          </tr>
+          <tr>
+            <td><label>Collar Color:</label></td>
+            <td><input type="color"></td>
+          </tr>
+          <tr>
+            <td><label>Number of Adoptions: </label></td>
+            <td><input type="number"  size="20"  min="0" max="5" required></td>
+          </tr>
+        </table>
+
+        <h3>Additional Comments</h3>
+        <table>
+          <tr>
+            <td>
+                <textarea rows="10" cols="130" placeholder="Enter any comments ..."></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <div>
+                <input id=check1 type="checkbox" required>Agree to <a href="../Documents/Terms.docx">Terms &amp; Conditions</a>
+              </div>
+              <div>
+                <input type="checkbox" required>Get follow-up Emails &amp; NewsLetters
+              </div>
+              <div id="warning"></div>
+            </td>
+          </tr>
+        </table>
+
+        <div class="buttons">
+          <input id="submit" type="submit" onclick="verify()">
+          <input id="reset" type="reset" value="Clear">
+        </div>
+      </form>
+    </main>
+
+
+
+    <footer id="contactUs">
+      <table align="center">
+        <tr>
+          <td><h2>Contact Us</h2></td>
+          <td><h2>Location</h2></td>
+          <td><h2>Work Hours</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.facebook.com/"> <img src="../Images/icons/facebook.png"></img></a>
+            <a href="https://www.instagram.com/?hl=en"> <img src="../Images/icons/instagram.png"></img></a>
+            <a href="https://twitter.com/?lang=en"> <img src="../Images/icons/twitter.png"></img></a>
+          </td>
+          <td rowspan="2">
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931153.6436380817!2d53.972655327991816!3d24.26558883996743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e3a1b94df8b93%3A0x19831d77d9e2ec43!2sAbu%20Dhabi%20Wildlife%20Centre!5e0!3m2!1sen!2sae!4v1653826638774!5m2!1sen!2sae"
+                      width="300" height="150" style="border:0;" allowfullscreen="" ></iframe>
+            </div>
+          </td>
+          <td rowspan="2">
+            <h3>Monday-Friday: 9am - 6pm</h3>
+            <h3>Saturday: 10am-5pm</h3>
+            <h3>Sunday: Closed</h3>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <a href="https://www.snapchat.com/"> <img src="../Images/icons/snap.png"></img></a>
+            <a href="mailto:faunaid_support@gmail.com"><img src="../Images/icons/mail.png"></img></a>
+            <button type="button" onclick="alert('Office: 02-756-3214 \nToll Free: 800-5666-233');">
+              <img src="../Images/icons/phone.png"></img>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <br>
+            <small>
+              FaunAid Inc. is a nonprofit, tax-exempt charitable organization under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.
+              <br> &copy; 2022 FaunAid 
+              &nbsp; &nbsp; <a href="../Documents/Privacy.pdf">Privacy Policy\Your Privacy Rights</a>
+              &nbsp; &nbsp; &nbsp; <a href="../Documents/Terms.docx">Terms &amp; Conditions</a>
+            </small>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

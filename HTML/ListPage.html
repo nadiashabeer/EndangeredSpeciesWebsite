@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Engandered Animals Page</title>
+    <link rel="stylesheet" href="../CSS/header_footer.css">
+    <link rel="stylesheet" href="../CSS/list.css">
+  </head>
+
+  <body>
+    <header>
+      <table>
+        <tr class="tr1">
+          <td class="logo">
+            <a href="HomePage.html"><img class="img" src="../Images/logo.png" alt="FaunAid Logo" width="150"/></a>
+          </td>
+          <td class="td1">
+            <input type="search" placeholder="Search">
+            <img class="search" src="../Images/icons/search.png"></img>
+            <a style="color:white" href="#contactUs">Contact Us</a>
+          </td>
+        </tr>
+        <tr class="tr2">
+          <td colspan="2" class="td2">
+            <a href="HomePage.html">Home</a> <span>|</span>
+            <a href="ListPage.html">Endangered Animals</a> <span>|</span>
+            <a href="AdoptPage.html">Adopt</a> <span>|</span>
+            <a href="ShopPage.html">Merchandise</a> <span>|</span>
+            <a href="MoreInfoPage.html">Know More</a> <span>|</span>
+            <a href="AboutUsPage.html">About Us</a>
+          </td>
+        </tr>
+      </table>
+    </header>
+
+
+
+    <main>
+
+      <table>
+        <tr>
+          <td>
+            <div class="padding">
+              <h1>Endangered Animals of U.A.E.</h1>
+              <p>The United Arab Emirates is home to a variety of gorgeous animals,
+                however many of them are endangered species. The government is attempting
+                to maintain and even breed numerous endangered species by putting a larger
+                emphasis on conservation in recent years. We look at six of the most
+                endangered animals in the UAE and how you can help them from becoming just
+                another footnote in history.</p>
+            </div>
+          </td>
+          <td>
+            <script src="../JavaScript/list.js"></script>
+            <div class="box">
+              <table  align ="center">
+                <tr>
+                  <td valign="center" align="right"><button onclick="getPrev()">&#10094;</button></td>
+                  <td class="img"><img src="../Images/List/img1.jpg" alt="Socotra Cormorant" height="350px" id="img"></td>
+                  <td valign="center" align="left"><button onclick="getNext()">&#10095;</button></td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <span class="dot" onclick="getImg(1)" id="dot1"></span>
+                    <span class="dot" onclick="getImg(2)" id="dot2"></span>
+                    <span class="dot" onclick="getImg(3)" id="dot3"></span>
+                    <span class="dot" onclick="getImg(4)" id="dot4"></span>
+                    <span class="dot" onclick="getImg(5)" id="dot5"></span>
+                    <span class="dot" onclick="getImg(6)" id="dot6"></span>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <h1 id="imgTitle" onclick = "location.href= getInfo()" style="color: white;">Socotra Cormorant</h1>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <h1><hr>Animals Available For Symbolic Adoption<hr></h1>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="../Images/List/img1.jpg" class="img" height=300 width=300>
+          </td>
+          <td class="content">
+            <h2 id="1">Socotra Cormorant</h2>
+            <ul type="square">
+              <li>Status: Vulnerable</li>
+              <li>The Socotra cormorant is an almost entirely blackish bird with a total length of about 80 centimetres. Its legs and feet are black
+                and its gular skin blackish. More than 40,000- 45000 breeding pairs have been recorded in the Abu Dhabi Emirate, making it the highest number.</li>
+              <li>Threats: Coastal development, disturbances and marine pollution near nesting colonies.</li>
+              <li>Fun Facts:</li>
+              <ol type="i">
+                <li>The Socotra cormorant dives for food, with some reports suggesting that it can stay submerged for up to three minutes at a time.</li>
+                <li>In the 1980s, scientists found a roosting flock of 250,000 of the birds.</li>
+                <li>The Socotra cormorant usually looks entirely black, but when breeding it takes on a far more purplish shade.</li>
+              </ol>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content">
+            <h2 id="2">Dugong</h2>
+            <ul type="square">
+              <li>Status: Vulnerable</li>
+              <li>Dugongs are cousins of manatees and share a similar plump appearance, but have a dolphin fluke-like tail.Commonly known as "sea cows," dugongs graze
+                peacefully on sea grasses in shallow coastal waters of the Indian and western Pacific Oceans.</li>
+              <li>Threats: sea grass habitat loss, degradation because of coastal development, industrial activities, bycatch.</li>
+              <li>Fun Facts:</li>
+                <ol type="i">
+                  <li>Dugongs grow to a maximum length of 13 feet (4 m) long and weight of 595 pounds (270 kg).</li>
+                  <li>Dugongs are referred to as sea cows because they use their strong, cleft upper lips to graze on sea grasses they uproot from the seafloor.</li>
+                  <li>Dugongs can live up to 70 years.</li>
+                </ol>
+            </ul>
+          </td>
+          <td>
+            <img src="../Images/List/img2.jpg" class="img" height=300 width=300>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="../Images/List/img3.jpg" class="img" height=300 width=300>
+          </td>
+          <td class="content">
+            <h2 id="3">Houbara Bustard</h2>
+            <ul type="square">
+              <li>Status: Vulnerable</li>
+              <li>This dull brown bird can survive and thrive in arid habitats including hot deserts, meaning it is ideally suited to the UAE climate.
+                They're found today in North Africa, the Canary Islands and the west Sahara Desert region.</li>
+              <li>Threats: Predators, poaching, hunting and habitat decline.</li>
+              <li>Fun Facts:</li>
+                <ol type="i">
+                  <li>The Houbara Bustard is a shy bird and rarely uses its voice.</li>
+                  <li>Houbara bustard eggs are ‘camouflaged’ with shades that match desert nests to protect them from attack by predators.</li>
+                  <li>Houbara Bustards spend most of their time on the ground searching for food (typically seeds, insects and small creatures.</li>
+                </ol>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content">
+            <h2 id="4">Hawksbill Turtle</h2>
+            <ul type="square">
+              <li>Status: Critically Endangered </li>
+              <li>Hawksbill turtles are relatively small and weigh a maximum of 50kg. They are typically brown with splashes of orange, yellow or reddish brown
+                 while juvenile hawksbills are black or dark brown with light brown or yellow colouration on the edge of their shell and limbs. They get their
+                 name from their distinct, beak-like mouth.</li>
+              <li>Threats: Coastal development, entanglement in abandoned fishing nets, marine debris, pollution and over-exploitation for meat, eggs and shells.</li>
+              <li>Fun Facts:</li>
+                <ol type="i">
+                  <li>Temperature determines the sex of the offspring. Warmer temperatures produce mostly females, and cooler temperatures produce a majority of males.</li>
+                  <li>Sea turtles lay circa 110 eggs in a nest, and average between 2 to 8 nests a season.</li>
+                  <li>Hawksbill Turtles are the only sea turtles that lay their eggs in the UAE.</li>
+                </ol>
+            </ul>
+          </td>
+          <td>
+            <img src="../Images/List/img4.jpg" class="img" height=300 width=300>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <img src="../Images/List/img5.jpg" class="img" height=300 width=300>
+          </td>
+          <td class="content">
+            <h2 id="5">Sand Cat</h2>
+            <ul type="square">
+              <li>Status: Vulnerable</li>
+              <li>The sand cat is the only cat species that lives mostly in desert environments. Its fur is of a pale, sandy, light brownish-yellow colour.</li>
+              <li>Threats: Residential and commercial development, biological resource use,  human pressures, habitat loss and cross breeding with domestic cats.</li>
+              <li>Fun Facts:</li>
+                <ol type="i">
+                  <li>They are bold hunters, and their prey often includes venomous snakes, rodents, birds, hares and insects. </li>
+                  <li>They can survive in harsh desert environments without drinking water for weeks at a time, and obtain moisture from their prey.</li>
+                  <li>They have dense hair and padding on their paws to protect against the extreme weather conditions of their habitats, and can sprint at speeds of 30-40km per hour.</li>
+                </ol>
+            </ul>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="content">
+            <h2 id="6">Arabian Leopard</h2>
+            <ul type="square">
+              <li>Status: Critically Endangered</li>
+              <li>There are only an estimated 200 Arabian leopards remaining in the wild. They’re the rarest and smallest of the world’s eight leopard species and are thought to be found
+                only in Saudi Arabia, Oman and Yemen.</li>
+              <li>Threats: Habitat conversion and intense persecution.</li>
+              <li>Fun Facts:</li>
+                <ol type="i">
+                  <li>They are the only big cat which can carry prey into a tree.</li>
+                  <li>The Leopard can be individually identified by its spot pattern on its body.</li>
+                  <li>Nubian Ibex, Arabian Tahr, Mountain Gazelle, Indian Crested Porcupine, Cape Hyrax, Cape Hare, the foxes,
+                    and various partridges may all be hunted by the Arabian leopard.</li>
+                </ol>
+            </ul>
+          </td>
+          <td>
+            <img src="../Images/List/img6.jpg" class="img" height=300 width=300>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2">
+            <p>For More Information on Engangered Animals <a href="MoreInfoPage.html">Click Here</a> </p>
+          </td>
+        </tr>
+      </table>
+    </main>
+
+
+
+    <footer id="contactUs">
+      <table align="center">
+        <tr>
+          <td><h2>Contact Us</h2></td>
+          <td><h2>Location</h2></td>
+          <td><h2>Work Hours</h2></td>
+        </tr>
+        <tr>
+          <td>
+            <a href="https://www.facebook.com/"> <img src="../Images/icons/facebook.png"></img></a>
+            <a href="https://www.instagram.com/?hl=en"> <img src="../Images/icons/instagram.png"></img></a>
+            <a href="https://twitter.com/?lang=en"> <img src="../Images/icons/twitter.png"></img></a>
+          </td>
+          <td rowspan="2">
+            <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931153.6436380817!2d53.972655327991816!3d24.26558883996743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e3a1b94df8b93%3A0x19831d77d9e2ec43!2sAbu%20Dhabi%20Wildlife%20Centre!5e0!3m2!1sen!2sae!4v1653826638774!5m2!1sen!2sae"
+                      width="300" height="150" style="border:0;" allowfullscreen="" ></iframe>
+            </div>
+          </td>
+          <td rowspan="2">
+            <h3>Monday-Friday: 9am - 6pm</h3>
+            <h3>Saturday: 10am-5pm</h3>
+            <h3>Sunday: Closed</h3>
+          </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <a href="https://www.snapchat.com/"> <img src="../Images/icons/snap.png"></img></a>
+            <a href="mailto:faunaid_support@gmail.com"><img src="../Images/icons/mail.png"></img></a>
+            <button type="button" onclick="alert('Office: 02-756-3214 \nToll Free: 800-5666-233');">
+              <img src="../Images/icons/phone.png"></img>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3">
+            <br>
+            <small>
+              FaunAid Inc. is a nonprofit, tax-exempt charitable organization under Section 501(c)(3) of the Internal Revenue Code. Donations are tax-deductible as allowed by law.
+              <br> &copy; 2022 FaunAid 
+              &nbsp; &nbsp; <a href="../Documents/Privacy.pdf">Privacy Policy\Your Privacy Rights</a>
+              &nbsp; &nbsp; &nbsp; <a href="../Documents/Terms.docx">Terms &amp; Conditions</a>
+            </small>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
